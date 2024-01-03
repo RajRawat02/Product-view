@@ -28,7 +28,6 @@ const ProductDetailsPage = () => {
       <img src={product.image} alt={product.title} height={200} />
       <p>{product.description}</p>
       <p>Price: ${product.price}</p>
-      {/* Add more details if needed */}
     </div>
   );
 };

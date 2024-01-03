@@ -14,9 +14,7 @@ export function ProductRoutes() {
           <Route path="/" element={<Login />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/:productId" element={<ProductDetailsPage />} />
-          {/* <Route path="/cart">
-            <CartPage cartItems={cartItems} />
-          </Route> */}
+          <Route path="/cart" element={<CartPage />}/>
         </Routes>
       </Router>
     </>
